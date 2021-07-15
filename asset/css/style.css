@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+#header {
+    height: 54px;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+}
+
+#header #menu-mobile {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    padding: 20px 24px; 
+    color: #000;
+}
+
+#header #menu-mobile:hover {
+    background-color: #ccc;
+}
+
+#header .header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 32px;
+    letter-spacing: 4px;
+}
+
+.header__nav b {
+    padding-right: 8px;
+    font-weight: 800;
+}
+
+.header__nav .nav-lists {
+    list-style: none;
+}
+
+.header__nav .nav-lists li {
+    display: inline-block;
+
+}
+
+.header__nav a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+}
+
+.header__nav a:hover {
+    background-color: #ccc;
+}
+
+/* slider */
+
+#slider {
+    background: url('../img/architect.jpg') top center / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
+#slider .title-br {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 26px;
+}
+
+#slider .title-br .arch {
+    font-weight: 400;
+
+}
+
+#slider .title-br .slider__br {
+    background-color: #000;
+    opacity: 0.75;
+    padding: 8px 16px;
+    margin-right: 8px;
+}
+
+
+#body {
+    padding: 8px 32px;
+}
+
+.content .heading {
+    padding: 42px 0;
+}
+
+.content .heading span {
+    display: block;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+}
+
+.lists-house {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lists-house .item-list {
+    position: relative;
+    width: 24%;
+    margin-bottom: 12px;
+}
+
+.lists-house .item-list .item--img {
+    width: 100%;
+}
+
+.lists-house .item-list span {
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    top:0;
+    left: 0;
+}
+
+.content .content__about {
+    margin: 15px 0;
+}
+
+.position {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.position .member {
+    width: 24%;
+}
+
+.position .member .member-img {
+    width: 100%;
+    filter: grayscale(75%);
+}
+
+.position .member .name {
+    font-size: 24px;
+    margin-top: -6px;
+    padding: 10px 0;
+}
+
+.position .member .desc {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.position .member .btn-contact {
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.position .member .btn-contact:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* CSS contact */
+
+.content .hd-contact {
+    padding: 16px 0!important;
+}
+
+.content .heading p {
+    margin: 15px 0;
+}
+
+.content .heading .form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .form-contact input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    height: 42px;
+}
+
+.content .form-contact input + input {
+    margin-top: 16px;
+}
+
+.content .form-contact .btn-send {
+    width: 150px;
+    color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    margin: 32px 0;
+}
+
+.content .form-contact .btn-send:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+#map .map--img {
+    width: 100%;
+}
+
+#footer {
+    margin-top: -6px;
+    background-color: #000;
+}
+
+
+#footer .coppy-right {
+    padding: 32px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+#footer .coppy-right a {
+    color: #fff;
+}
+
+#footer .coppy-right a:hover {
+    color: rgb(43, 255, 0);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+
+/* PC  */
+@media (min-width: 64em) {
+    
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+    .position .member,
+    .lists-house .item-list {
+        width: 49%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .header__nav {
+        display: block;
+    }
+
+    #header .header__nav > a {
+        display: inline-block;
+    }
+
+    #slider .title-br .arch{
+        display: none;
+    }
+
+    .content .form-contact .btn-send,
+    .position .member,
+    .lists-house .item-list {
+        width: 100%;
+    }
+
+    #header #menu-mobile {
+        display: block;
+    }
+
+    .header__nav .nav-lists {
+        margin-top: 8px;
+    }
+
+    .header__nav .nav-lists li {
+        display: block;
+    }
+
+
+
+
+}
